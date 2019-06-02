@@ -1,0 +1,15 @@
+Program a;
+Var i, j:integer;
+k: real;
+a:array[2] of integer;
+Begin
+    i:=5;
+	j:=i;
+	k:=.1;
+    while (i > 2 and i < 7) do
+		if (k > 0.0 and j = i) then
+			i:=(i+1)*2/3;
+
+	for i := 1 to j do
+		k:=k+0.1;
+End.
